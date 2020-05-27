@@ -5,7 +5,7 @@
 # ********************************
 
 
-# Demo løsninger
+# Demo
 install.packages("shiny")
 library(shiny)
 
