@@ -8,8 +8,8 @@
 
 # Windows
 # CTRL + Enter - Kør en R kommando
-# Genvej for at indsætte "<-" - ALT + -
-# Genvej for at indsætte "%>%" - CTRL + SHIFT + M
+# Genvej for "<-" - ALT + -
+# Genvej for "%>%" - CTRL + SHIFT + M
 # TAB - Mulige kommandoer
 # CTRL + PIL OP - Afslutter din kommando
 
@@ -24,7 +24,7 @@
 # ********************************
 
 
-library()                       # Pakker der er på din computer
+library()                       # Pakker der er paa din computer
 
 install.packages("tidyverse")   # install - ggplot
 library(tidyverse)              # load - dplyr
@@ -36,7 +36,6 @@ remove.packages("tidyverse")    # Fjern - tidyverse
 
 
 # ********************************
-# Kapitel 5
 # Working Directory
 # ********************************
 
@@ -61,13 +60,13 @@ x == 2        # "==" betyder "lig med"
 x == 3
 x != 2        # "!=" betyder "ikke lig med"
 x < 1         # "<" betyder "mindre end"
-x > 1         # ">" betyder "større end"
+x > 1         # ">" betyder "st�rre end"
 x <= 2        # "<=" betyder "mindre eller lig med
 
-# Hjælp
+# Help
 
 # Funktioner
-help("mean") # Hjælp til en specifik funktion - mean
+help("mean") # Specifik funktion - mean
 help("plot")
 
 ?mean
