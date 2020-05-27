@@ -56,7 +56,7 @@ northwind_ugedag_salg <- northwind_samlet %>%
 
 northwind_ugedag_salg
 
-# Alt samlet i en sætning med pipe %>%
+# Alt samlet med pipe %>%
 northwind_ugedag_salg <- northwind_samlet %>%
   mutate(Total = Quantity * UnitPrice) %>%
   mutate(Weekday = weekdays(ShippedDate)) %>%
