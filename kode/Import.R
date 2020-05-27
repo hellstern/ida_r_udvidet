@@ -1,19 +1,19 @@
-# ********************************
+# *****************************
 # Copyright Tue Hellstern
-# ********************************
+# *****************************
 
 
-# ********************************
+# *****************************
 # Import
-# ******************************
+# *****************************
 
 
 # readr - Excel
 library(readxl)
 
-salg <- read_xlsx("webinar_data.xlsx")                          # Indlæser første ark
-salg <- read_xlsx("webinar_data.xlsx", sheet = "salgs_data")    # Indlæser arket "salgs_data"
-salg <- read_xlsx("webinar_data.xlsx", sheet = 3)               # Indlæser ark 3
+salg <- read_xlsx("webinar_data.xlsx")                          # Import ark 1.
+salg <- read_xlsx("webinar_data.xlsx", sheet = "salgs_data")    # Import arket "salgs_data"
+salg <- read_xlsx("webinar_data.xlsx", sheet = 3)               # Import ark 3
 
 
 # Workflow
