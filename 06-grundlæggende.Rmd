@@ -4,9 +4,9 @@ Du kan vælge at skrive dine R kommandoer enten i det øverste vindue til venstr
 Forskellen er:
 
 * *øverst*  - kan du gemme dine R kommandoer og de afvikles med *CTRL + Enter*
-* *nederst* - bliver kommandoen ikke gemt men afviklet når du trykker *Enter*
+* *nederst* - bliver kommandoen ikke gemt, men afvikles når du trykker *Enter*
 
-Du skal bruge **<-** nårt du vil tildele en værdi til en variable/objekt
+Du skal bruge **<-** når du vil tildele en værdi til en variable eller objekt.
 
 ```{r eval=FALSE}
 x <- 10
@@ -16,7 +16,7 @@ navn <- "Tue"
 Her oprettes to objekter; *x* og *navn*
 og de tildeles en værdi.
 
-Du kan se disse objekter i vinduet øverst til højre under *Enviroment*
+Du kan se disse objekter i vinduet øverst til højre under *Environment*
 
 ![](image/objekter.png)
 
@@ -79,17 +79,17 @@ x > 2
 ## Hjælp
 R har en rigtig god indbygget hjælpe funktion.
 Du kan enten få hjælpen frem via kode eller via GUI i RStudie.
-Uanset om du brugere kode eller GUI, så bliver hjælpen vist i det nederste højre vindue under fanen *Help*
+Uanset om du bruger kode eller GUI, så bliver hjælpen vist i det nederste højre vindue under fanen *Help*
 
 ![](image/help.png)
 
 **GUI**
-I RStudio kan du søge i det lille felt oppe i den højre hjørne af hjælpe vinduet.
+I RStudio kan du søge i det lille felt oppe i det højre hjørne af hjælpe vinduet.
 Du kan søge efter funktioner eller hele pakker.
 
 
 **Kode**
-Kun kan også få hjælpen frem via kode
+Du kan også få hjælpen frem via kode
 
 ```{r eval=FALSE}
 help("mean") # Hjælp til en specifik funktion - mean
@@ -113,7 +113,7 @@ Tidyverse pakken som kommer i brug senere i dette kursus, gør brug af en lidt s
 
 Du kan få den "frem" ved at bruge genvejstasten:
 
-* Winows  - *CTRL + SHIFT + M*
+* Windows  - *CTRL + SHIFT + M*
 * Mac - *CMD + SHIFT + M*
 
 Uden pipe

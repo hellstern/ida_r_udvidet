@@ -1,5 +1,5 @@
 # Working Directory {#workingdirectory}
-R bruger en mappe som *Working Directory*. Det er nemmere at tilgå filer, der ligger i denne mappe. 
+R bruger en mappe som hedder *Working Directory*. Det er nemmere at tilgå filer, der ligger i denne mappe. 
 De filer der er placeret i denne mappe kan du tilgå uden at angive stien til filen.
 
 I RStudio har du to muligheder for at ændre dit "Working Directory":
@@ -26,5 +26,5 @@ I den nederste højre del af din skærm skal du gøre følgende:
 3. Klik på knappen **More**
 4. Vælg **Set As Working Directory**
 
-**Tip** - *Når du brugere denne metode kan du se den kode der afvikles i det nederste venstre vindue.*
+**Tip** - *Når du bruger denne metode kan du se den kode der afvikles i det nederste venstre vindue.*
 

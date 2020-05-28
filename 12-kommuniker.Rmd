@@ -83,7 +83,5 @@ Opdelingen i to filer giver dig de fleste muligheder og en bedre kontrol.
 
 Du får to filer der indeholder en demo løsning som du kan bruge som udgangspunkt for din løsning.
 
-## Eksempel
-
 
 
